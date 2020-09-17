@@ -1,0 +1,261 @@
+/*some default styles to make each box visible*/
+
+@media media type and (condition: breakpoint) {
+  // CSS rules
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 green;
+    padding: 10px;
+    list-style:none;
+    flex: center;
+}
+
+form, header, body {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  display: block;
+}
+
+nav, ul {
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  position: fixed;
+  top: 0;
+}
+
+/* Colours for each box */
+.box1 {
+  background:#32a88b;
+  flex-basis:100px;
+  font-size: 20px;
+}
+.box2 {
+background:#32a88b;
+flex-basis:100px;
+font-size: 20px;
+}
+
+.box3 {background:#32a88b;
+ flex-basis:100px;
+ font-size: 20px;
+}
+
+.box4 {
+  background:#32a88b;
+  flex-basis:100px;
+  font-size: 20px;
+}
+
+.box5 {
+  background:#32a88b;
+  flex-basis:100px;
+  font-size: 20px;
+}
+.box6 {
+  background:#32a88b;
+  flex-basis:100px;
+  font-size: 20px;
+}
+
+.box7 {background:#e74c3c;}
+.box8 {background:#bdc3c7;}
+.box9 {background:#2ecc71;}
+.box10 {background:#16a085;}
+
+/*we start writing out flexbox here. the above is just page setup */
+.container {
+    display:flex;
+    border:10px solid steel;
+    height:20vh;
+    flex-direction:row; 
+    flex-wrap:wrap;
+    align-items:flex;
+  
+  .rounded-border {
+    border-radius: 15px;
+  }
+
+/* flex-wrap:wrap; goes from bottom to top,                  */    
+/* write flex-wrap:nowrap; on default  */
+/*  flex-direction: column, top to bottom, wraps around vertically, points down, never needs to wrap shows space left and right */
+/*  flex-direction: row-reverse, right to left, shows space left and right */
+/*  min-height:100vh;                         */
+/*  y - cross axis                            */
+/*  x - main axis                          */
+/*  flex-direction: column-reverse, takes up space vertically, flex: 1 on default, flex-grow/flex-shrink property   */
+/*  flex-direction:row;                           */
+/*  flex-direction:                            */
+
+}
+
+
+.box {
+    width:22.2222222%;
+/* width: 33.3333333%*/
+    margin:5px;
+    padding: 5px;
+    float: left;
+    flex-grow:1;
+    flex-shrink:1;
+    flex-basis:1;
+/* width:calc(33.33.3333333% - 20px) */
+/* property: values; pass to children */
+/* align */
+  
+  .font-size {
+  font-size: 2px;
+  font-family: arial;
+}
+
+  #video {
+    border: 3px 3px black;
+  }
+  
+  
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background color: #cyan;
+}
+
+li, a, button {
+    font-family: 
+    font-weight: 500;
+    font0size: 16px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+
+  }
+  #nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  #nav-bar li  {
+    float:left;
+    
+}
+  #nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  #nav-bar li a:hover {
+    background-color: #111;
+
+#header-img {
+    wrap:nowrap;
+  }
+  
+.logo {
+    cursor: pointer;
+    order:3;
+    margin-left:500px;
+}
+  
+  #nav-bar, nav, header {
+    min-width: auto;
+    position: fixed;
+    position: top: 0;
+    left: 0;
+    width: 100%;
+  }
+ 
+ 
+
+/* nav is a child of the header, which is why you want to target the nav */
+
+.cta {
+    order: 2;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav-link li:nth-child(1) {
+    padding: 0 20px 0 0;
+}
+
+.nav-link {
+    tranistion: all 0.3s ease 0s;
+
+.nav-link li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left:20px;
+    padding: 9px 25px;
+    background-color: rgba (0,136,169,1)
+    border:none;
+    border-radius:50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+  
+  #services {
+    
+  }
+  
+  #products {
+    
+  }
+  
+  #about {
+    
+  }
+
+  #form {
+    content-align: center;
+  }
+  
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

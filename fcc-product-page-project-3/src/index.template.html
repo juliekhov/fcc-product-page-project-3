@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Product Page (Project 3)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+Responsive Web Design Projects - Build a Product Landing Page
+Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL.
+
+Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+
+You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+
+User Story #1: My product landing page should have a header element with a corresponding id="header".
+
+User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+
+User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+
+User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+
+User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+
+User Story #6: I can watch an embedded product video with id="video".
+
+User Story #7: My landing page has a form element with a corresponding id="form".
+
+User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
+
+User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
+
+User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+
+User Story #11: Within the form, there is a submit input with a corresponding id="submit".
+
+User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+
+User Story #13: The navbar should always be at the top of the viewport.
+
+User Story #14: My product landing page should have at least one media query.
+
+User Story #15: My product landing page should utilize CSS flexbox at least once.
+
+-->
+
+<head>
+  <title>Product Page</title>
+
+</head>
+<header>
+  <h2 class="font-size;"><br><br>What would you DO with an Arduino Board? We have thousands of products to choose from. Electronics galore!</h2>
+</header>
+<div>
+
+</div>
+
+
+  <body>
+
+    <header id="header">
+      <img class="logo" id="header-img" src="https://assets.codepen.io/3163723/pinterest_profile_image.png" alt="logo">
+
+      <nav id="nav-bar">
+        <div class="nav-bar" class="container" class="rounded-         border">
+          <ul>
+            <li><a class="nav-link" href="#services">Services</li> </a>
+            <li><a class="nav-link" href="#products">
+                Products</li> </a>
+            <li><a class="nav-link" href="#about">About</li> </a>
+            <p>&nbsp; &nbsp;<em> since 1989 : Meeting your electronics needs &#174;</em></p>
+          </ul>
+      </nav>
+
+      <div class="box box1"> Orders ship same-day! </div>
+
+      <div class="box box4">New Products Everyday!</div>
+      <div class="box box5">Fast Same- Day Shipping!</div>
+      <div class="box box6">Phone: 0-123-456- 7890</div>
+      </div>
+
+      <a class="cta" href=""></a>
+    </header>
+    <br><br>
+    <div id="about">
+      <h4>About<h4>
+          <p>We've been in business for 45 years selling upgradable electronics. We also offer monthly subscription services and electronics warranties to meet customer needs. We love to make a customer smile!</p>
+    </div>
+    <div id="products">
+      <h4>Products<h4>
+          <p><img style="height: 350px;           width:560px;" src="https://assets.codepen.io/3163723/harrison-broadbent-19YCOjHosDk-unsplash.jpg" /></p>
+          <p>
+            <iframe width="560" id="video" height="315" src="https://www.youtube.com/embed/9lCD-gCh8JU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+    </div>
+    <div id="services">
+      <h4>Services<h4>
+          <p>
+            Offering virtual tech-support and assistance with computer literacy demands. Contact our 24-hour Live Tech Chat Support for any assistance with your hardware, virtual, or computer literacy, or tech needs.<br><br>
+
+            <div><svg style="margin-right:90px; margin-bottom:10px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172" style=" fill:#000000;">
+                <defs>
+                  <radialGradient cx="86" cy="84.65625" r="85.33081" gradientUnits="userSpaceOnUse" id="color-1_119446_gr1">
+                    <stop offset="0" stop-color="#ecd59c"></stop>
+                    <stop offset="0.242" stop-color="#efd9a4"></stop>
+                    <stop offset="0.627" stop-color="#f6e5bb"></stop>
+                    <stop offset="1" stop-color="#fff3d8"></stop>
+                  </radialGradient>
+                  <linearGradient x1="106.15625" y1="79.75156" x2="106.15625" y2="169.83119" gradientUnits="userSpaceOnUse" id="color-2_119446_gr2">
+                    <stop offset="0" stop-color="#40daf2"></stop>
+                    <stop offset="1" stop-color="#3888a4"></stop>
+                  </linearGradient>
+                  <linearGradient x1="76.59375" y1="123.625" x2="76.59375" y2="8.299" gradientUnits="userSpaceOnUse" id="color-3_119446_gr3">
+                    <stop offset="0" stop-color="#39c0d0"></stop>
+                    <stop offset="0.007" stop-color="#8ff3e5"></stop>
+                    <stop offset="0.459" stop-color="#47d8e0"></stop>
+                    <stop offset="0.804" stop-color="#2baaee"></stop>
+                    <stop offset="1" stop-color="#2eb5f0"></stop>
+                  </linearGradient>
+                  <linearGradient x1="218.60125" y1="103.46875" x2="74.10781" y2="103.46875" gradientUnits="userSpaceOnUse" id="color-4_119446_gr4">
+                    <stop offset="0" stop-color="#40daf2"></stop>
+                    <stop offset="0.17" stop-color="#34caeb"></stop>
+                    <stop offset="0.439" stop-color="#6ab5cd"></stop>
+                    <stop offset="0.714" stop-color="#1eabdf"></stop>
+                    <stop offset="1" stop-color="#3888a4"></stop>
+                  </linearGradient>
+                </defs>
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g>
+                    <path d="M162.59375,86c5.8265,0 10.45975,-5.36962 9.19662,-11.40306c-0.91912,-4.39406 -5.01487,-7.40944 -9.50569,-7.40944h-46.72219v-18.8125h38.66237c4.48812,0 8.58656,-3.01537 9.50569,-7.40944c1.26044,-6.03613 -3.37281,-11.40306 -9.19931,-11.40306h-30.90625c-2.96969,0 -5.375,-2.40531 -5.375,-5.375v0c0,-2.96969 2.40531,-5.375 5.375,-5.375h11.78469c4.48812,0 8.58656,-3.01537 9.50569,-7.40944c1.26313,-6.03344 -3.37012,-11.40306 -9.19662,-11.40306h-107.19094c-4.49081,0 -8.58656,3.01537 -9.50569,7.40944c-1.26312,6.03344 3.37013,11.40306 9.19663,11.40306h6.71875c2.96969,0 5.375,2.40531 5.375,5.375v0c0,2.96969 -2.40531,5.375 -5.375,5.375h-17.15969c-4.48812,0 -8.58656,3.01537 -9.50569,7.40944c-1.26313,6.03344 3.37012,11.40306 9.19662,11.40306h41.65625v40.3125h-49.41237c-4.48812,0 -8.58656,3.01538 -9.50569,7.40944c-1.26044,6.03344 3.37281,11.40306 9.19931,11.40306h1.34375c2.96969,0 5.375,2.40531 5.375,5.375v0c0,2.96969 -2.40531,5.375 -5.375,5.375h-1.03469c-4.48812,0 -8.58656,3.01538 -9.50569,7.40944c-1.26313,6.03344 3.37012,11.40306 9.19662,11.40306h56.74656c3.53944,0 6.40969,2.87025 6.40969,6.40969v0.61544c0,3.54212 -2.87025,6.41237 -6.40969,6.41237h-13.4375c-4.48812,0 -8.58656,3.01538 -9.50569,7.40944c-1.26312,6.03344 3.37013,11.40306 9.19663,11.40306h104.50344c4.48812,0 8.58656,-3.01538 9.50569,-7.40944c1.26313,-6.03344 -3.37012,-11.40306 -9.19662,-11.40306h-8.37156c-3.53944,0 -6.40969,-2.87025 -6.40969,-6.40969v-0.61544c0,-3.54212 2.87025,-6.41237 6.40969,-6.41237v0c4.48812,0 8.58656,-3.01538 9.50569,-7.40944c1.26313,-6.03344 -3.37012,-11.40306 -9.19662,-11.40306h-33.59375v-32.25z" fill="url(#color-1_119446_gr1)"></path>
+                    <path d="M137.0625,88.6875h-61.8125c-5.9125,0 -10.75,4.8375 -10.75,10.75v34.9375c0,5.9125 4.8375,10.75 10.75,10.75h48.10894c2.92938,0 5.62494,1.58831 7.04663,4.14681l4.54725,8.18344c1.08038,1.94306 2.94819,3.43462 5.15194,3.73025c4.15756,0.559 7.70775,-2.65794 7.70775,-6.70262v-20.10788v-34.9375c0,-5.9125 -4.8375,-10.75 -10.75,-10.75z" fill="url(#color-2_119446_gr2)"></path>
+                    <path d="M120.9375,24.1875h-88.6875c-5.9125,0 -10.75,4.8375 -10.75,10.75v53.75v13.4375v12.599c0,3.95063 2.50475,7.65938 6.33175,8.63225c3.83775,0.97556 7.69163,-0.78475 9.52181,-4.08231l6.45538,-11.61806c1.89737,-3.41313 5.49325,-5.53088 9.39819,-5.53088h67.73038c5.9125,0 10.75,-4.8375 10.75,-10.75v-56.4375c0,-5.9125 -4.8375,-10.75 -10.75,-10.75z" fill="url(#color-3_119446_gr3)"></path>
+                    <path d="M120.9375,118.25c13.09619,0 24.01819,-9.42238 26.38588,-21.83862c-1.32225,-4.44244 -5.40456,-7.72388 -10.26087,-7.72388h-5.375v2.6875c0,5.9125 -4.8375,10.75 -10.75,10.75h-56.4375v16.125z" fill="url(#color-4_119446_gr4)"></path>
+                    <path d="M76.59375,56.4375c-3.71066,0 -6.71875,3.00809 -6.71875,6.71875c0,3.71066 3.00809,6.71875 6.71875,6.71875c3.71066,0 6.71875,-3.00809 6.71875,-6.71875c0,-3.71066 -3.00809,-6.71875 -6.71875,-6.71875zM100.78125,56.4375c-3.71066,0 -6.71875,3.00809 -6.71875,6.71875c0,3.71066 3.00809,6.71875 6.71875,6.71875c3.71066,0 6.71875,-3.00809 6.71875,-6.71875c0,-3.71066 -3.00809,-6.71875 -6.71875,-6.71875zM52.40625,56.4375c-3.71066,0 -6.71875,3.00809 -6.71875,6.71875c0,3.71066 3.00809,6.71875 6.71875,6.71875c3.71066,0 6.71875,-3.00809 6.71875,-6.71875c0,-3.71066 -3.00809,-6.71875 -6.71875,-6.71875z" fill="#ffffff"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <br>
+
+            <big> Hello, please contact one of our friendly customer support associates. We are here to help you!</big>
+
+            <!-- svg 2 -->
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172" style=" fill:#000000;">
+              <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g>
+                  <path d="M29.5625,120.9375h-10.75c-5.93706,0 -10.75,-4.81294 -10.75,-10.75l0,-37.625c0,-5.93706 4.81294,-10.75 10.75,-10.75h10.75v0l0,59.125z" fill="#3ae5d8"></path>
+                  <path d="M8.0625,91.375h21.5v0v29.5625v0h-13.4375c-4.4528,0 -8.0625,-3.6097 -8.0625,-8.0625v-21.5z" fill="#43c7d0"></path>
+                  <path d="M142.4375,61.8125h10.75c5.93706,0 10.75,4.81294 10.75,10.75v37.625c0,5.93706 -4.81294,10.75 -10.75,10.75h-10.75v0v-59.125z" fill="#3ae5d8"></path>
+                  <path d="M142.4375,91.375h21.5v0v21.5c0,4.4528 -3.6097,8.0625 -8.0625,8.0625h-13.4375v0v-29.5625z" fill="#43c7d0"></path>
+                  <rect x="11" y="21" transform="scale(2.6875,2.6875)" width="4" height="26" rx="2" ry="2" fill="#acb7d0"></rect>
+                  <rect x="49" y="21" transform="scale(2.6875,2.6875)" width="4" height="26" rx="2" ry="2" fill="#acb7d0"></rect>
+                  <rect x="31" y="55" transform="scale(2.6875,2.6875)" width="8" height="6" rx="2" ry="2" fill="#8b8e98"></rect>
+                  <path d="M118.68,38.45813c-1.96529,2.1382 -5.27363,2.32861 -7.47125,0.43c-14.25891,-13.1642 -36.23922,-13.1642 -50.49812,0c-2.18658,1.88802 -5.47447,1.70998 -7.44438,-0.40313l-12.95375,-13.81375c10.73341,-12.62803 26.42731,-19.96492 43,-20.1025h5.64375c16.45705,0.18146 32.03413,7.46056 42.73125,19.96813z" fill="#c2cde7"></path>
+                  <path d="M83.3125,18.00625c-13.36606,0.05872 -26.27133,4.89105 -36.38875,13.62562l6.47688,6.90688c1.96991,2.1131 5.2578,2.29115 7.44437,0.40313c14.25891,-13.1642 36.23922,-13.1642 50.49813,0c2.19762,1.89861 5.50596,1.7082 7.47125,-0.43l6.45,-6.90688c-10.12303,-8.6486 -22.99372,-13.412 -36.30813,-13.4375z" fill="#acb7d0"></path>
+                  <path d="M86,10.75c-1.48427,0 -2.6875,1.20323 -2.6875,2.6875v5.375c0,1.48427 1.20323,2.6875 2.6875,2.6875c1.48427,0 2.6875,-1.20323 2.6875,-2.6875v-5.375c0,-1.48427 -1.20323,-2.6875 -2.6875,-2.6875zM73.6375,14.70062c-0.39333,-1.43232 -1.87331,-2.27458 -3.30563,-1.88125c-1.43232,0.39333 -2.27458,1.87331 -1.88125,3.30563l1.42437,5.16c0.22285,0.95651 0.94972,1.71529 1.89578,1.97901c0.94606,0.26371 1.96064,-0.00964 2.64616,-0.71295c0.68552,-0.70331 0.9328,-1.72455 0.64494,-2.66355zM116.23438,18.8125c-0.61953,-0.3589 -1.35667,-0.45576 -2.04788,-0.26908c-0.69122,0.18668 -1.27937,0.64146 -1.63399,1.26345l-2.6875,4.64937c-0.66758,1.27616 -0.21049,2.85172 1.03641,3.57248c1.2469,0.72075 2.84032,0.33045 3.61297,-0.88498l2.6875,-4.64938c0.36113,-0.61627 0.46208,-1.35094 0.28054,-2.04177c-0.18153,-0.69083 -0.63061,-1.28098 -1.24804,-1.6401zM59.4475,19.83375c-0.77265,-1.21543 -2.36607,-1.60573 -3.61297,-0.88498c-1.2469,0.72075 -1.70399,2.29632 -1.03641,3.57248l2.6875,4.64937c0.77265,1.21543 2.36607,1.60573 3.61297,0.88498c1.2469,-0.72075 1.70399,-2.29632 1.03641,-3.57248zM101.64125,12.81938c-1.43191,-0.37551 -2.89787,0.47763 -3.27875,1.90813l-1.3975,5.18688c-0.37952,0.96263 -0.17267,2.05765 0.53184,2.81551c0.70451,0.75786 1.78154,1.04395 2.76927,0.73559c0.98773,-0.30836 1.71069,-1.1564 1.85889,-2.18047l1.42437,-5.16c0.1885,-0.6915 0.09298,-1.42964 -0.26533,-2.05038c-0.35831,-0.62074 -0.94973,-1.07263 -1.6428,-1.25525z" fill="#8d6c9f"></path>
+                  <path d="M153.1875,59.125h-2.6875c-1.43979,-33.08423 -28.69697,-59.15631 -61.8125,-59.125h-5.375c-33.11553,-0.03131 -60.37271,26.04077 -61.8125,59.125h-2.6875c-7.42133,0 -13.4375,6.01617 -13.4375,13.4375v37.625c0,7.42133 6.01617,13.4375 13.4375,13.4375h8.54625c1.33107,3.66836 5.09827,5.85684 8.94429,5.19601c3.84602,-0.66083 6.66668,-3.98125 6.69696,-7.88351v-59.125c-0.03028,-3.90226 -2.85093,-7.22268 -6.69696,-7.88351c-3.84602,-0.66083 -7.61323,1.52765 -8.94429,5.19601h-0.34938c0.53942,-11.65683 4.70122,-22.85517 11.90563,-32.035l12.1475,11.95937c2.00892,1.99252 4.72241,3.11268 7.55187,3.1175c2.46544,-0.00078 4.85252,-0.86621 6.74563,-2.44562c11.94346,-9.91518 29.25592,-9.91518 41.19938,0c4.27775,3.46966 10.48593,3.14475 14.37812,-0.7525l12.06688,-12.09375c7.27529,9.22886 11.46803,20.50976 11.98625,32.25h-0.34937c-1.33107,-3.66836 -5.09827,-5.85684 -8.94429,-5.19601c-3.84602,0.66083 -6.66668,3.98125 -6.69696,7.88351v59.125c0.03028,3.90226 2.85093,7.22268 6.69696,7.88351c3.84602,0.66083 7.61323,-1.52765 8.94429,-5.19601h3.17125v5.375c0,13.35839 -10.82911,24.1875 -24.1875,24.1875h-16.50125c-1.22223,-4.73377 -5.48477,-8.04662 -10.37375,-8.0625h-5.375c-5.93706,0 -10.75,4.81294 -10.75,10.75c0,5.93706 4.81294,10.75 10.75,10.75h5.375c4.88898,-0.01588 9.15152,-3.32873 10.37375,-8.0625h16.50125c16.32692,0 29.5625,-13.23558 29.5625,-29.5625v-5.375c7.42133,0 13.4375,-6.01617 13.4375,-13.4375v-37.625c0,-7.42133 -6.01617,-13.4375 -13.4375,-13.4375zM10.75,110.1875v-37.625c0,-4.4528 3.6097,-8.0625 8.0625,-8.0625h8.0625v53.75h-8.0625c-4.4528,0 -8.0625,-3.6097 -8.0625,-8.0625zM34.9375,59.125c1.48427,0 2.6875,1.20323 2.6875,2.6875v59.125c0,1.48427 -1.20323,2.6875 -2.6875,2.6875c-1.48427,0 -2.6875,-1.20323 -2.6875,-2.6875v-59.125c0,-1.48427 1.20323,-2.6875 2.6875,-2.6875zM117.09438,35.12563c-1.93691,1.9091 -4.99459,2.07063 -7.12187,0.37625c-13.93166,-11.56028 -34.12084,-11.56028 -48.0525,0c-2.12255,1.6784 -5.16187,1.51722 -7.095,-0.37625l-12.38938,-12.09375c10.61499,-11.26039 25.40192,-17.64764 40.87688,-17.65687h5.375c15.43084,0.00345 30.18201,6.34898 40.79625,17.54937zM96.75,161.25h-5.375c-2.96853,0 -5.375,-2.40647 -5.375,-5.375c0,-2.96853 2.40647,-5.375 5.375,-5.375h5.375c2.96853,0 5.375,2.40647 5.375,5.375c0,2.96853 -2.40647,5.375 -5.375,5.375zM137.0625,123.625c-1.48427,0 -2.6875,-1.20323 -2.6875,-2.6875v-59.125c0,-1.48427 1.20323,-2.6875 2.6875,-2.6875c1.48427,0 2.6875,1.20323 2.6875,2.6875v59.125c0,1.48427 -1.20323,2.6875 -2.6875,2.6875zM153.1875,118.25h-8.0625v-53.75h8.0625c4.4528,0 8.0625,3.6097 8.0625,8.0625v37.625c0,4.4528 -3.6097,8.0625 -8.0625,8.0625z" fill="#8d6c9f"></path>
+                </g>
+              </g>
+            </svg>
+          </p>
+    </div>
+    <header class="header">
+      <h1 id="title">Neo Electronics Survey Form</h1>
+
+      <p id="description" class="description center">Thank you for taking the time to fill out this form. </p>
+    </header>
+
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="submit" type="submit" id="submit" id="name" class="form-control" placeholder="Enter your name" required="">
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+      </div>
+      <div class="form-group">
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown" name="role" class="form-control" required="">
+          <option disabled="" selected="" value="">Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+          <option value="learner">Full Time Learner</option>
+          <option value="preferNo">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>Would you recommend the Neo Electronics to a friend?</p>
+        <label>
+          <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</label>
+        <label>
+          <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
+        <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+      </div>
+      <div class="form-group">
+        <p>
+          What is your favorite feature of Neo Electronics?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required="">
+          <option disabled="" selected="" value="">Select an option</option>
+          <option value="challenges">Upgrades</option>
+          <option value="projects">Products</option>
+          <option value="community">Newsletter</option>
+          <option value="openSource">Open Source</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>
+          What would you like to see improved?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+        <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Product Discounts</label>
+        <br>
+        <label>
+          <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Newsletter</label>
+        <br>
+        <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Visualizing your Electronics Kit</label>
+        <br>
+        <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Computer Challenges</label>
+        <br>
+        <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Friendly Computer Guy/Gal</label>
+        <br>
+        <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Tech help rooms</label>
+        <br>
+        <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
+        <br>
+        <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">Virtual Meetups</label>
+        <br>
+        <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
+        <br>
+        <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
+        <br>
+        <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Electronics</label>
+        <br>
+      </div>
+      <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <div class="form-group">
+        <button class="submit-button" href="mailto:none https://www.freecodecamp.com/email-submit">
+          Submit
+        </button>
+      </div>
+      <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    </form>
+
+  </body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
